@@ -16,8 +16,8 @@ terraform {
   }
 }
 module "nios_aws" {
-  source  = "slarimore02/infoblox-nios-aws-deployment/aws"
-  version = "1.0.x"
+  source  = "slarimore02/infoblox-deployment/aws"
+  version = "1.0.0"
 
   region = "us-west-1"
   aws_access_key = "<access-key>"
