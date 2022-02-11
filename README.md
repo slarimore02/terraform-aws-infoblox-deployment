@@ -34,7 +34,7 @@ module "nios_aws" {
 output "controller_info" {
   value = module.nios_aws.nios_public_address
 }
-
+```
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
